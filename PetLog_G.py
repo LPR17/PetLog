@@ -249,7 +249,7 @@ def generar_id(lista):
 def agregar_duenio(duenios, mascotas):
     nuevo_id = generar_id(duenios)
 
-    nombre = input_nombre_valido("Nombre del dueñx: ")
+    nombre = input_nombre_valido("Nombre del dueñx: ").title()
     telefono = input_numero_entero("Teléfono (solo números): ")
     email = input_email_valido("Correo electrónico: ")
 
@@ -274,7 +274,7 @@ def agregar_duenio(duenios, mascotas):
 def agregar_mascota(mascotas, duenios, tipos_mascotas):
     nuevo_id = generar_id(mascotas)
 
-    nombre = input_texto_obligatorio("Nombre de la mascota: ")
+    nombre = input_texto_obligatorio("Nombre de la mascota: ").title()
     tipo = input_tipo_mascota("Tipo de mascota: ", tipos_mascotas)
     edad = input_numero_entero("Edad de la mascota: ")
 
@@ -519,8 +519,12 @@ def editarDatosDuenio(duenios):
             muestraDatosDuenios(duenio)
             return False
 
-        
-
+"""
+--------------------------------------------------------------------------------------------------------
+  Funciones Log Auditoría
+--------------------------------------------------------------------------------------------------------
+"""      
+#Acá irían las funciones para que quede un registro de lo que realizan los usuarios, debería quedar guardado en el archivo de logAuditoria
 """
 --------------------------------------------------------------------------------------------------------
   Funciones de Consulta
