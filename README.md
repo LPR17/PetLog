@@ -37,7 +37,17 @@ Historial médico: Registrar visitas médicas con fecha, motivo, diagnóstico, t
 
 Menús interactivos en consola con validación de entradas.
 
-📂 Estructura de archivos
+Estructura de archivos
+├── .github/workflows        # Configuración de acciones de GitHub
+├── Archivos/
+│   ├── Usuarios/
+│   │   └── usuariosRegistrados.txt
+├── core/                    # Módulo de procesamiento de lenguaje
+├── cuestionarios/           # Archivos con preguntas/respuestas
+├── documentos/              # Documentación del proyecto
+├── logs/                    # Registro de interacciones
+├── tests/                   # Casos de prueba
+└── ui/                      # Interfaz de usuario (Textual)
 
 PetLog/
 ├── Archivos/
