@@ -2,19 +2,26 @@ PetLog
 
 Gestor de bitácora de mascotas desarrollado en Python para la materia Programación 1.
 
-🔍 Descripción
+Temas a incluir:
+- Matrices
+- Tuplas
+- Rebanado y Comprensión de listas
+- Cadena de caracteres
+- Diccionarios
+- Conjuntos
+- Funciones lambda , map, filter y reduce
+- Excepciones
+- Archivos
+- Expresiones Regulares
+
+Descripción:
 
 PetLog es una aplicación de consola que permite llevar un registro completo de mascotas y sus dueñxs, incluyendo:
-
-Alta, baja y modificación de mascotas y dueñxs
-
-Registro de visitas médicas con historial
-
-Asociación entre mascotas y dueñxs
-
-Control de sesiones de usuario (login / registro)
-
-Persistencia de datos en archivos JSON (mascotas.json, duenios.json) y texto (usuariosRegistrados.txt)
+- Alta, baja y modificación de mascotas y dueñxs
+- Registro de visitas médicas con historial
+- Asociación entre mascotas y dueñxs
+- Control de sesiones de usuario (login / registro)
+- Persistencia de datos en archivos JSON (mascotas.json, duenios.json y usuariosRegistrados.json) y texto (logAuditoría.txt)
 
 🚀 Características principales
 
@@ -82,22 +89,4 @@ Validaciones: Verificación de IDs, formatos de email, campos no vacíos.
 Persistencia: Lectura/escritura atómica de archivos con json.dump y bloques with open(...).
 
 Historial: Cada visita médica es una lista de cadenas con etiquetas y nombre del veterinario.
-
-📝 Contribuciones
-
-¡Las contribuciones son bienvenidas! Para contribuir:
-
-Haz un fork de este repositorio.
-
-Crea una rama (git checkout -b feature/nombre-de-la-rama).
-
-Realiza tus cambios y haz commit (git commit -m 'Añade nueva funcionalidad').
-
-Envía un push a tu rama (git push origin feature/nombre-de-la-rama).
-
-Abre un Pull Request.
-
-📜 Licencia
-
-Este proyecto es de código abierto bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
 
