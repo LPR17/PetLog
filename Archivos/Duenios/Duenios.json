@@ -1,19 +1,19 @@
 [
     {
         "id": 1,
-        "nombre": "jorge rodriguez",
+        "nombre": "Jorgito Messi",
         "telefono": "5490862451",
-        "mail": "pepe@gmail.com"
+        "mail": "luqui@gmail.com"
     },
     {
         "id": 2,
-        "nombre": "bautista rojas",
+        "nombre": "Bautista Rojas",
         "telefono": "1146376425",
         "mail": "laurojas@uade.edu.ar"
     },
     {
         "id": 3,
-        "nombre": "maria eugenia cobas",
+        "nombre": "Maria Eugenia Cobas",
         "telefono": "1556788892",
         "mail": "mecobas@hotmail.com"
     }
